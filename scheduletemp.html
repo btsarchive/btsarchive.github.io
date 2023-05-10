@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="shortcut icon" type="images/x-icon" href="images/bts2.png">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+<style>
+html{
+    background-color: #292929;
+}
+
+body{
+    color: #ffffff;
+    background-color: #292929;
+}
+
+.hero-body{
+    background-color: #8041b6;
+}
+
+.box {
+    box-shadow: none;
+    background-color: #292929;
+    
+}
+
+.box p,
+strong{
+    color: white;
+}
+
+.btn{
+    float: right;
+    height: 40px;
+    background-color: #b87ce3;
+}
+
+.btn a {
+    color:black;
+
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div class="columns mx-1">
+  <div class="column is-half is-offset-one-quarter">
+
+    <section class="hero is-primary mb-4">
+      <div class="hero-body">
+        <p class="title">
+          2023 schedule
+        </p>
+        <p class="subtitle">
+    
+        </p>
+      </div>
+    </section>
+  
+    
+    <section>
+<div>
+      <label for="searchbox" class="is-size-5">Search</label>
+      <input class='input mb-5' type="search" 
+            id="searchbox" placeholder="Live search keyword..">
+ </div>
+
+<div class="box">
+ <strong>230101</strong>
+  <p> Dirk Clak's New Year's Rocking Eve <button class="btn"><a href="https://www.youtube.com/watch?v=G7F49u-VtKo" target="_blank">Link Button</a></button></p>
+  <p> <span style="background-color: #d87070"> jhope </span>
+  | youtube | live performance</p>
+  
+  
+
+</div>
+
+<div class="box">
+  <strong> How did Spider-man get superpowers?</strong>
+  <p>  Spider-man was bitten by a radioactive spider on a lab. </p>
+  
+    
+  <!-- Put any keywords here -->
+  <span class="is-hidden">secret</span> 
+</div>
+
+<div class="box">
+  <strong>Who were Batman's parents?</strong>
+  <p> Thomas Wayne and Martha Wayne. </p>
+</div>
+
+<div class="box">
+  <strong>Who is Malekith?</strong>
+  <p>The villain of ‘Thor: The Dark World </p>
+</div>
+    
+<div class="box">
+  <strong>What's Wonder Woman's weapon?</strong>
+  <p>A magic lasso and bullet-proof bracelets </p>
+</div>
+    
+<div class="box">
+  <strong>What's Strom super power?</strong>
+  <p>She can manipulate and resist the weather</p>
+</div>
+    
+<div class="box">
+  <strong>What's Strom super power?</strong>
+  <p>She can manipulate and resist the weather</p>
+</div>
+    
+<div class="box">
+  <strong>What is Eye of Agamotto?</strong>
+  <p>It's a place where the Time Stone is hidden in Doctor Strange </p>
+</div>
+    
+<div class="box">
+  <strong>What is Paradise Island?</strong>
+  <p>It's where Wonder Woman comes from. </p>
+</div>
+    
+<div class="box">
+  <strong>Who was the sidekick of Aquaman?</strong>
+  <p>The sidekick of Aquaman, is someone called Aqualad. </p>
+</div>
+      
+    </section>
+
+  </div>
+</div>
+
+
+<script>
+let cards = document.querySelectorAll('.box')
+    
+function liveSearch() {
+    let search_query = document.getElementById("searchbox").value;
+    
+    //Use innerText if all contents are visible
+    //Use textContent for including hidden elements
+    for (var i = 0; i < cards.length; i++) {
+        if(cards[i].textContent.toLowerCase()
+                .includes(search_query.toLowerCase())) {
+            cards[i].classList.remove("is-hidden");
+        } else {
+            cards[i].classList.add("is-hidden");
+        }
+    }
+}
+
+//A little delay
+let typingTimer;               
+let typeInterval = 500;  
+let searchInput = document.getElementById('searchbox');
+
+searchInput.addEventListener('keyup', () => {
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch, typeInterval);
+});
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.9/script.min.js"> </script>
+   <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+
+   </body>
+   </html>
