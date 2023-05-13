@@ -7,47 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pictures.css">
 
     <style> 
-    .profile {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-.profile-li {
-  float: left;
-}
-
-.profile-li:last-child {
-  border-right: none;
-}
-
-.profile-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.profile-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-a.active-2 {
-      text-decoration: underline !important;
-text-underline-offset: 13px;
-}
-
-.active-2 {
-/*  background-image: linear-gradient( #9D50BB, #6E48AA); */
-}
-
-.member {
-    margin-top: 17%;
-}
     </style>
 
 
@@ -188,10 +151,7 @@ text-underline-offset: 13px;
             <div class="col-md-9">
             <div class="row">
             <div class="col-md">
-          <img src="https://64.media.tumblr.com/e19fbf617c099fa81e41f8f3abb16b88/2830b7e0bf0e4f94-b2/s1280x1920/04586effb1ecc2379d885090c24bdb9807b3a7c0.jpg" alt="Image" class="img-fluid" style="width: 60%;
-    margin: 0 auto 20px auto;
-    border-radius: 50%;
-float:right">
+          <img src="https://64.media.tumblr.com/e19fbf617c099fa81e41f8f3abb16b88/2830b7e0bf0e4f94-b2/s1280x1920/04586effb1ecc2379d885090c24bdb9807b3a7c0.jpg" alt="Image" class="img-fluid" id="cust-img-fluid" >
     </div>
     <div class="col-md">
           <h3 class="member">2023</h3>
@@ -217,10 +177,14 @@ float:right">
         <div class="myBtnContainer" style="margin-top: 2%; margin-bottom: 2%">
                     <!--<div class="custom-thumbnail">-->
                     <button class="btn" onclick="filterSelection('all')"> all</button>
-                    <button class="btn" onclick="filterSelection('2013')"> ot7</button>
-                    <button class="btn" onclick="filterSelection('2014')"> 2014</button>
-                    <button class="btn" onclick="filterSelection('2015')"> 2015</button>
-                    <button class="btn" onclick="filterSelection('2016')"> 2016</button>
+                    <button class="btn" onclick="filterSelection('ot7')"> ot7</button>
+                    <button class="btn" onclick="filterSelection('rm')"> rm</button>
+                    <button class="btn" onclick="filterSelection('jin')"> jin</button>
+                    <button class="btn" onclick="filterSelection('yoongi')"> yoongi</button>
+                    <button class="btn" onclick="filterSelection('jhope')"> jhope</button>
+                    <button class="btn" onclick="filterSelection('jimin')"> jimin</button>
+                    <button class="btn" onclick="filterSelection('v')"> v</button>
+                    <button class="btn" onclick="filterSelection('jungkook')"> jungkook</button>
                     </div>
 
          </div>
@@ -231,85 +195,290 @@ float:right">
           </div>
 
 
- 
+
+
+              <!--  hier -->
+              
+<div class="panel-group" id="accordion">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">230101</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
           <div class="row">
+
 
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
-  <div class="filterDiv all 2013 2014">
+  <div class="filterDiv all jhope 2023">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1TVudtmxkhoXgpiZJv8xGQ9fmgnB6r2vp"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+     
+  </div>
+
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+     <div class="filterDiv all jhope 2023">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1npEVdgFbDxcOnsXxrg_CoUvud6OjxA1c"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+    </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+   <div class="filterDiv all jhope 2023">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1CIKFR0knBBLjbfpLCJNYAoB9m-cquXGP"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    </div>
+
+
+  </div>
+        
+        
+        
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+        <!-- -->
+          <div class="row">
+
+
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+  <div class="filterDiv all ">
     <img
       id ="exampleImage"
       src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
       class="w-100 shadow-1-strong rounded mb-4"
     />
-    <h4>130613</h4>
     </div>
 
-      <div class="filterDiv all 2015 2016">
+    <div class="filterDiv all ">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+    <div class="filterDiv all ">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+     
+  </div>
+
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <div class="filterDiv all 2015 2016">
     <img
     id ="exampleImage"
       src="https://drive.google.com/uc?id=1hOuV4uqBESkauZ3bJdrt8h4o7ruxBUj2"
       class="w-100 shadow-1-strong rounded mb-4"      
     />
     </div>
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
+    <div class="filterDiv all 2013 2014">
     <img
-    id ="exampleImage"
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"           
-    />
-
-    <img
-    id ="exampleImage"
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"      
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
       class="w-100 shadow-1-strong rounded mb-4"
     />
-
+    </div>
+    <div class="filterDiv all 2013 2014">
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"    
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
     />
-  </div>
-  <!-- nieuw -->
-  <div class="col-lg-4 mb-4 mb-lg-0">
+    </div>
+    </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <div class="filterDiv all 2015 2016">
     <img
     id ="exampleImage"
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"           
-    />
-
-    <img
-    id ="exampleImage"
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
       class="w-100 shadow-1-strong rounded mb-4"      
     />
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    </div>
+
+
+  </div>
+        
+        
+        
+        
+        
+        <!-- -->
+        </div>
+      </div>
+    </div>
+    <!-- 3 --> 
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+        <!-- hier -->
+           <div class="row">
+
+
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+  <div class="filterDiv all ">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+    <div class="filterDiv all ">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+    <div class="filterDiv all ">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+
+     
   </div>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <div class="filterDiv all 2015 2016">
     <img
     id ="exampleImage"
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      src="https://drive.google.com/uc?id=1hOuV4uqBESkauZ3bJdrt8h4o7ruxBUj2"
       class="w-100 shadow-1-strong rounded mb-4"      
     />
-  
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <div class="filterDiv all 2015 2016">
+    <img
+    id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"      
+    />
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    <div class="filterDiv all 2013 2014">
+    <img
+      id ="exampleImage"
+      src="https://drive.google.com/uc?id=1qvWkwbg5zRTHNsrSlydR3bxMhitTbrkO"
+      class="w-100 shadow-1-strong rounded mb-4"
+    />
+    </div>
+    </div>
+
+
   </div>
 
+        
+        <!-- tot hier -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div> 
+
+
+          <!-- tot hier -->
+
+
+
+
+
+ 
+          <div class="row">
+
+      
+
+ 
 
   <div id="lightbox">
 	<div class="close">x</div>
-<!--	<div class="prev">&lt;</div>
-	<div class="next">&gt;</div>-->
 	<img src="#">
 </div>
+
+
 
 
 </div>
