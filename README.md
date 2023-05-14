@@ -14,3 +14,10 @@ Overview uploads: https://docs.google.com/document/d/1Q7vyVcT69I6cU_aqjV1SyJex9o
 - 2022 page: music: complete ( soundcloud & spotify )
 - all music: 2023 & 2022  ( soundcloud & spotify )
 
+- Finished:
+
+https://btsarchive.github.io/music-2020.html
+https://btsarchive.github.io/music-2021.html
+https://btsarchive.github.io/music-2022.html
+https://btsarchive.github.io/music-2023.html
+
