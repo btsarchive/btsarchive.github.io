@@ -24,6 +24,7 @@ Overview uploads: https://docs.google.com/document/d/1Q7vyVcT69I6cU_aqjV1SyJex9o
 230516:
 
 - https://btsarchive.github.io/music-2019.html
+- https://btsarchive.github.io/music-2018.html
 
 Music: spotify & soundcloud
 Videos: youtube
