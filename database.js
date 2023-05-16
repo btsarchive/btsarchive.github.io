@@ -168,6 +168,13 @@ app.controller('validationCtrl',function($scope){
             "Collab",
             "Spotify",
             "2022\/06\/24"
+        ],
+        [
+            "Jungkook",
+            "My You",
+            "Single",
+            "Soundcloud",
+            "2022\/06\/13"
         ]
     ]
 
