@@ -260,6 +260,75 @@ app.controller('validationCtrl',function($scope){
             "Single",
             "Soundcloud",
             "2017\/01\/01"
+        ],
+        //2016 
+        [
+            "BTS",
+            "Wings",
+            "Album",
+            "Spotify",
+            "2016\/10\/10"
+        ],
+        [
+            "BTS",
+            "Youth",
+            "Album",
+            "Spotify",
+            "2016\/09\/07"
+        ],
+
+        [
+            "BTS",
+            "The Most Beautiful Moment in Life: Young Forever",
+            "Album",
+            "Spotify",
+            "2016\/02\/16"
+        ],
+
+        [
+            "BTS",
+            "Run",
+            "Album",
+            "Spotify",
+            "2016\/03\/15"
+        ],
+        // 2015 
+
+        // 2014
+        [
+            "BTS",
+            "Wake Up",
+            "Album",
+            "Spotify",
+            "2014\/12\/24"
+        ],
+        [
+            "BTS",
+            "Danger",
+            "Album",
+            "Spotify",
+            "2014\/11\/19"
+        ],
+        [
+            "BTS",
+            "Dark & Wild",
+            "Album",
+            "Spotify",
+            "2014\/08\/19"
+        ],
+        [
+            "BTS",
+            "Boy In Luv",
+            "Album",
+            "Spotify",
+            "2014\/07\/04"
+        ],
+        [
+            "BTS",
+            "No More Dream",
+            "Album",
+            "Spotify",
+            "2014\/07\/04"
         ]
     ]
 
