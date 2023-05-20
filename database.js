@@ -358,6 +358,45 @@ app.controller('validationCtrl',function($scope){
             "Album",
             "Spotify",
             "2013\/06\/13"
+        ],
+        [
+            "J-hope",
+            "Animal (radio edit)",
+            "Collab",
+            "Spotify",
+            "2012\/06\/25"
+        ],
+
+          [
+            "J-hope",
+            "Animal",
+            "Collab",
+            "Spotify",
+            "2012\/06\/25"
+        ],
+
+          [
+            "BTS",
+            "Because I'm A Foolish Woman",
+            "Collab",
+            "Spotify",
+            "2011\/02\/17"
+        ],
+
+          [
+            "BTS",
+            "Love U, Hate U",
+            "Collab",
+            "Spotify",
+            "2010\/10\/26"
+        ],
+
+          [
+            "BTS",
+            "Ashes",
+            "Collab",
+            "Spotify",
+            "2010\/10\/30"
         ]
     ]
 
