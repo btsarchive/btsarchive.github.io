@@ -417,6 +417,14 @@ app.controller('validationCtrl',function($scope){
 
           [
             "BTS",
+            "Bad Girl",
+            "Collab",
+            "YouTube",
+            "2011\/02\/15"
+        ],
+
+          [
+            "BTS",
             "Love U, Hate U",
             "Collab",
             "Spotify",
