@@ -328,7 +328,36 @@ app.controller('validationCtrl',function($scope){
             "No More Dream",
             "Album",
             "Spotify",
-            "2014\/07\/04"
+            "2014\/06\/04"
+        ],
+        [
+            "BTS",
+            "Skool Luv Affair Special Edition",
+            "Repackage",
+            "Spotify",
+            "2014\/05\/14"
+        ],
+        [
+            "BTS",
+            "Skool Luv Affair",
+            "Album",
+            "Spotify",
+            "2014\/02\/12"
+        ],
+         [
+            "BTS",
+            "O!RUL8,2?",
+            "Album",
+            "Spotify",
+            "2013\/09\/11"
+        ],
+         
+        [
+            "BTS",
+            "2 Cool 4 Skool",
+            "Album",
+            "Spotify",
+            "2013\/06\/13"
         ]
     ]
 
