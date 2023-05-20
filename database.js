@@ -292,7 +292,37 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2016\/03\/15"
         ],
-        // 2015 
+        // 2015
+         [
+            "BTS",
+            "I Need U",
+            "Album",
+            "Spotify",
+            "2015\/12\/08"
+        ],
+         [
+            "BTS",
+            "Most Beautiful Moment In Life pt. 2",
+            "Album",
+            "Spotify",
+            "2015\/11\/30"
+        ],
+         [
+            "BTS",
+            "For You",
+            "Album",
+            "Spotify",
+            "2015\/06\/17"
+        ],
+
+         [
+            "BTS",
+            "The Most Beautiful Moment In Life pt. 1",
+            "Album",
+            "Spotify",
+            "2015\/04\/29"
+        ],
+
 
         // 2014
         [
@@ -344,6 +374,7 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2014\/02\/12"
         ],
+        // 2013
          [
             "BTS",
             "O!RUL8,2?",
@@ -359,6 +390,7 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2013\/06\/13"
         ],
+        //predebut
         [
             "J-hope",
             "Animal (radio edit)",
