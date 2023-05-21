@@ -3,7 +3,14 @@
 var app=angular.module('formvalid', ['ui.bootstrap','ui.utils']);
 app.controller('validationCtrl',function($scope){
   $scope.data=[
-  [
+    [
+            "Jimin",
+            "Angel pt. 1 (sped up)",
+            "Remix",
+            "Spotify",
+            "2023\/05\/01"
+        ],
+        [
             "Jimin",
             "Angel pt. 1",
             "OST",
@@ -113,6 +120,7 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2022\/10\/28"
         ],
+
         [
             "BTS",
             "Yet to Come (Hyund. version)",
@@ -162,6 +170,13 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2022\/07\/06"
         ],
+         [
+            "J-hope",
+            "MORE",
+            "Pre-release track",
+            "Spotify",
+            "2022\/07\/01"
+        ],
           [
             "Jungkook",
             "Left and Right",
@@ -176,6 +191,155 @@ app.controller('validationCtrl',function($scope){
             "Soundcloud",
             "2022\/06\/13"
         ],
+
+        [
+            "Jimin",
+            "With You",
+            "OST",
+            "Spotify",
+            "2022\/04\/24"
+        ],
+
+         [
+            "Jungkook (prod. suga)",
+            "Stay Alive",
+            "OST",
+            "Spotify",
+            "2022\/02\/11"
+        ],
+        //2021
+         [
+            "V",
+            "Christmas Tree",
+            "OST",
+            "Spotify",
+            "2021\/12\/24"
+        ],  
+        [
+            "Jin",
+            "Super Tuna",
+            "Single",
+            "Spotify",
+            "2021\/12\/04"
+        ], 
+        [
+            "Jin",
+            "Yours",
+            "OST",
+            "Spotify",
+            "2021\/11\/07"
+        ],
+          [
+            "RM",
+            "Bicycle",
+            "Single",
+            "Spotify",
+            "2021\/06\/07"
+        ],
+
+         [
+            "RM",
+            "Don't",
+            "Collab",
+            "Spotify",
+            "2021\/04\/30"
+        ],
+          [
+            "J-hope",
+            "Blue Side",
+            "Collab",
+            "Spotify",
+            "2021\/03\/02"
+        ],
+        //2020
+         [
+            "Jimin",
+            "Christmas Love",
+            "Single",
+            "Spotify",
+            "2020\/12\/24"
+        ], 
+        [
+            "Jin",
+            "Abyss",
+            "Single",
+            "Spotify",
+            "2020\/12\/03"
+        ],
+         [
+            "V",
+            "Sweet Night",
+            "OST",
+            "Spotify",
+            "2020\/03\/13"
+        ],
+        [
+            "RM",
+            "Winter Flower",
+            "Collab",
+            "Spotify",
+            "2020\/01\/06"
+        ],
+        //2019
+        [
+            "J-hope",
+            "Chicken Noodle Soup",
+            "Collab",
+            "Spotify",
+            "2019\/09\/27"
+        ], 
+        
+        [
+            "RM",
+            "Old Town Road - Seoul Town Road Remix",
+            "Collab",
+            "Spotify",
+            "2019\/07\/24"
+        ],
+         [
+            "Jin",
+            "Tonight",
+            "Single",
+            "Spotify",
+            "2019\/06\/05"
+        ],
+        //2018
+        [
+            "Jimin",
+            "Promise",
+            "Single",
+            "Spotify",
+            "2018\/12\/31"
+        ],
+        [
+            "RM",
+            "mono",
+            "Mixtape",
+            "Spotify",
+            "2018\/10\/22"
+        ],
+        [
+            "RM",
+            "Timeless",
+            "Collab",
+            "Spotify",
+            "2018\/11\/14"
+        ],
+        [
+            "J-hope",
+            "Hope World",
+            "Mixtape",
+            "Spotify",
+            "2018\/03\/02"
+        ],
+        [
+            "RM",
+            "Crying Over You",
+            "Collab",
+            "Spotify",
+            "2018\/01\/01"
+        ],
+
         // 2017 
         [
             "Jungkook",
@@ -242,6 +406,13 @@ app.controller('validationCtrl',function($scope){
         ],
         [
             "RM",
+            "Gajah",
+            "Collab",
+            "Spotify",
+            "2017\/04\/17"
+        ],
+        [
+            "RM",
             "Change",
             "Collab",
             "Spotify",
@@ -262,6 +433,13 @@ app.controller('validationCtrl',function($scope){
             "2017\/01\/01"
         ],
         //2016 
+        [
+            "V, Jin",
+            "It's Definitely You'",
+            "OST",
+            "Spotify",
+            "2016\/12\/20"
+        ],
         [
             "BTS",
             "Wings",
@@ -308,11 +486,27 @@ app.controller('validationCtrl',function($scope){
             "2015\/11\/30"
         ],
          [
+            "RM",
+            "U",
+            "Collab",
+            "Spotify",
+            "2015\/08\/12"
+        ],
+
+         [
             "BTS",
             "For You",
             "Album",
             "Spotify",
             "2015\/06\/17"
+        ],
+
+        [
+            "RM",
+            "ProMeTheUs",
+            "Collab",
+            "Spotify",
+            "2015\/05\/27"
         ],
 
          [
@@ -321,6 +515,14 @@ app.controller('validationCtrl',function($scope){
             "Album",
             "Spotify",
             "2015\/04\/29"
+        ],
+
+        [
+            "RM",
+            "Buckubucku",
+            "Collab",
+            "Spotify",
+            "2015\/03\/19"
         ],
 
 
