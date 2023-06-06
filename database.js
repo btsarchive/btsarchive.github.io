@@ -3,7 +3,21 @@
 var app=angular.module('formvalid', ['ui.bootstrap','ui.utils']);
 app.controller('validationCtrl',function($scope){
   $scope.data=[
-    [
+  [
+            "BTS",
+            "Take Two",
+            "Single",
+            "Spotify",
+            "2023\/06\/09"
+        ],
+  [
+            "Suga",
+            "Lilith",
+            "Collab",
+            "Spotify",
+            "2023\/06\/06"
+        ],  
+  [
             "Jimin",
             "Angel pt. 1 (sped up)",
             "Remix",
