@@ -3,6 +3,34 @@
 var app=angular.module('formvalid', ['ui.bootstrap','ui.utils']);
 app.controller('validationCtrl',function($scope){
   $scope.data=[
+   [
+            "Jungkook",
+            "Seven",
+            "Single",
+            "Spotify",
+            "2023\/07\/14"
+    ],    
+  [
+             "Jungkook",
+            "My You",
+            "Single",
+            "Spotify",
+            "2023\/07\/03"
+    ],
+    [
+            "Jungkook",
+            "Still With You",
+            "Single",
+            "Spotify",
+            "2022\/07\/03"
+    ],
+    [
+             "Jimin",
+            "Angel Pt. 2",
+            "OST",
+            "Spotify",
+            "2023\/06\/15"
+    ],
   [
             "BTS",
             "Take Two",
@@ -17,6 +45,13 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2023\/06\/06"
         ],  
+         [
+            "Jungkook",
+            "I'm In Love",
+            "Single",
+            "Spotify",
+            "2023\/06\/01"
+],
   [
             "Jimin",
             "Angel pt. 1 (sped up)",
@@ -468,6 +503,13 @@ app.controller('validationCtrl',function($scope){
             "Spotify",
             "2016\/09\/07"
         ],
+        [
+            "Jungkook",
+            "I'm In Love",
+            "Single",
+            "YouTube",
+            "2016\/08\/07"
+],
 
         [
             "BTS",
